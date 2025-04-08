@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ⚔️ Portfolio-RPG: 
 
-## Getting Started
+> A cyberpunk-themed developer portfolio turned into an interactive RPG-style experience.  
+> Built for FAANG recruiters, github watchers, and those who vibe with code and creativity.
 
-First, run the development server:
+---
+
+## 🧪 Live Demo
+
+🚀 Coming soon on Vercel  
+🔗 [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+
+---
+
+## 📸 Screenshots
+
+![Hero](./screenshots/hero.png)
+![XP + Quests](./screenshots/quests.png)
+![Terminal](./screenshots/terminal.png)
+
+---
+
+## ✨ Features
+
+- Glitch-style cyberpunk intro with parallax effects
+- Animated XP skill system
+- Quest Log showing real projects as RPG achievements
+- Fake terminal with `> resume`, `> explore`, and custom commands
+- Recruiter Mode toggle for a minimal PDF-style layout
+- Built for performance, theming, and storytelling
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ Next.js 15 (Pages Router)
+- 🎨 Tailwind CSS
+- 🎞 Framer Motion (for animations)
+- 🧠 TypeScript
+- 💾 Local JSON data (quests, skills)
+
+---
+
+## 📦 How to Run Locally
 
 ```bash
+git clone https://github.com/Kemono72/Portfolio-RPG.git
+cd Portfolio-RPG
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Then open [http://localhost:3000](http://localhost:3000)
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧙 Terminal Commands
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+| Command     | Action                        |
+|-------------|------------------------------ |
+| `> help`    | Shows available commands      |
+| `> resume`  | Simulates resume download     |
+| `> explore` | Scrolls to Quest Log          |
+| `> about`   | Shows dev bio      |
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 👨‍💻 About Me
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I'm **Aryan Raj Joshi** — a passionate and driven Computer Programming student at **Seneca Polytechnic**.  
+I build late nights, ship fast, learn constantly and I’m just getting started.
 
-## Learn More
+💼 15+ projects. C++, Swift, JavaScript. iOS, fullstack web, ethical hacking, AI prompt evaluation.  
+🎯 Currently targeting high-impact roles at **FAANG or similar top-tier tech teams**.
 
-To learn more about Next.js, take a look at the following resources:
+🧠 This portfolio is inspired by **glitch culture**, **RPG leveling**, and **cyberpunk terminals**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
+MIT License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+---
