@@ -81,3 +81,43 @@ body {
   80% { transform: translate(-2px, -2px); }
   100% { transform: translate(0); }
 }
+
+/* Glitch animation for hover effect */
+@keyframes glitch {
+  0% {
+    transform: skew(-5deg);
+    text-shadow: 2px 2px 0 red, -2px -2px 0 blue;
+  }
+  20% {
+    transform: skew(5deg);
+    text-shadow: -2px -2px 0 red, 2px 2px 0 blue;
+  }
+  40% {
+    transform: skew(-5deg);
+    text-shadow: 2px 2px 0 red, -2px -2px 0 blue;
+  }
+  60% {
+    transform: skew(5deg);
+    text-shadow: -2px -2px 0 red, 2px 2px 0 blue;
+  }
+  80% {
+    transform: skew(-5deg);
+    text-shadow: 2px 2px 0 red, -2px -2px 0 blue;
+  }
+  100% {
+    transform: skew(0deg);
+    text-shadow: none;
+  }
+}
+
+/* Apply the glitch effect only on hover */
+.glitch {
+  transform: skew(0deg);  /* Reset initial state */
+  text-shadow: none;      /* No shadow by default */
+}
+
+.glitch:hover {
+  animation: glitch 0s infinite;   /* Activate glitch effect on hover */
+  transform: skew(0deg);            /* Prevent skewing on hover */
+  text-shadow: 2px 2px 0 red, -2px -2px 0 blue;  /* Glitch shadow on hover */
+}
