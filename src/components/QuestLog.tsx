@@ -8,6 +8,7 @@ export default function QuestLog() {
   return (
     <section id="quests" className="p-8">
       <h2 className="text-2xl mb-4">📜 Quest Log</h2>
+      <br></br>
       <div className="space-y-6">
         {quests.map((quest) => (
           <Parallax key={quest.title} offset={30}>
