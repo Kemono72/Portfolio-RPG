@@ -1,7 +1,7 @@
 # ⚔️ Portfolio-RPG: 
 
 > A cyberpunk-themed developer portfolio turned into an interactive RPG-style experience.  
-> Built for FAANG recruiters, github watchers, and those who vibe with code and creativity.
+> Built for FAANG recruiters, github watchers and those who vibe with code and creativity.
 
 ---
 
@@ -15,15 +15,16 @@
 ## 📸 Screenshots
 <i> Screenshots will be added after i complete the portfolio its still work in progress</i>
 
-![Hero](./screenshots/hero.png)
-![XP + Quests](./screenshots/quests.png)
-![Terminal](./screenshots/terminal.png)
+![Hero](./screenshots/hero.png)          <br>
+![XP + Quests](./screenshots/quests.png) <br>
+![Terminal](./screenshots/terminal.png)  <br>
 
 ---
 
 ## ✨ Features
 
-- Glitch-style cyberpunk intro with parallax effects
+- User Interactive Gamified Portfolio
+- Glitch-style cyberpunk intro with parallax effects 
 - Animated XP skill system
 - Quest Log showing real projects as RPG achievements
 - Fake terminal with `> resume`, `> explore`, and custom commands
