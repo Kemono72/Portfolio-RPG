@@ -13,6 +13,7 @@
 ---
 
 ## 📸 Screenshots
+<i> Screenshots will be added after i complete the portfolio its still work in progress</i>
 
 ![Hero](./screenshots/hero.png)
 ![XP + Quests](./screenshots/quests.png)
@@ -60,18 +61,6 @@ Then open [http://localhost:3000](http://localhost:3000)
 | `> resume`  | Simulates resume download     |
 | `> explore` | Scrolls to Quest Log          |
 | `> about`   | Shows dev bio      |
-
----
-
-## 👨‍💻 About Me
-
-I'm **Aryan Raj Joshi** — a passionate and driven Computer Programming student at **Seneca Polytechnic**.  
-I build late nights, ship fast, learn constantly and I’m just getting started.
-
-💼 15+ projects. C++, Swift, JavaScript. iOS, fullstack web, ethical hacking, AI prompt evaluation.  
-🎯 Currently targeting high-impact roles at **FAANG or similar top-tier tech teams**.
-
-🧠 This portfolio is inspired by **glitch culture**, **RPG leveling**, and **cyberpunk terminals**.
 
 ---
 
