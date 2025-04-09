@@ -1,81 +1,37 @@
 // File: src/components/Chest.tsx
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 
-export default function Chest() {
+const Chest = () => {
   const [open, setOpen] = useState(false);
 
-  // Trigger chest open after the page loads
-  useEffect(() => {
-    setTimeout(() => {
-      setOpen(true);
-    }, 2000); // Chest opens after 2 seconds
-  }, []);
+  const handleChestClick = () => {
+    setOpen(true); // Open the chest when clicked
+  };
 
   return (
     <motion.div
       className="chest"
-      animate={{ scaleY: open ? 1 : 0 }}  // Chest opens vertically
-      transition={{ duration: 1.5, ease: "easeInOut" }}
       style={{
-        width: "200px",
-        height: "200px",
-        backgroundColor: "#804000",
-        borderRadius: "8px",
-        position: "relative",
-        overflow: "hidden",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        position: "absolute", // Ensure the chest is positioned absolutely
+        top: "10%", // Adjust this to place it above your name (can tweak this)
+        left: "50%", // Center the chest horizontally
+        transform: "translateX(-50%)", // Center it perfectly
+        zIndex: 1000, // Ensure it's above other sections
+        cursor: "pointer", // Change cursor to indicate it's clickable
       }}
+      onClick={handleChestClick}
     >
-      {/* Card flipping effect inside the chest */}
-      <motion.div
-        className="card"
-        animate={{ rotateY: open ? 0 : 180 }} // Card spins when the chest opens
-        transition={{ duration: 2, ease: "easeOut" }}
+      <img
+        src="/images/chest.png" // Path to your chest image
+        alt="Chest"
         style={{
-          width: "200px",
-          height: "300px",
-          backgroundColor: "#3b3b3b",
-          borderRadius: "8px",
-          position: "absolute",
-          top: 0,
-          left: 0,
+          width: "250px", // Adjust size to fit your design
+          height: "250px", // Adjust size to fit your design
         }}
-      >
-        {/* Front of the card (your name and photo) */}
-        <div className="card-front" style={{ padding: "10px" }}>
-          <h3 style={{ color: "white", textAlign: "center" }}>Aryan Raj Joshi</h3>
-          <img
-            src="your-photo-url.jpg"
-            alt="Your photo"
-            style={{
-              width: "60px",
-              height: "60px",
-              borderRadius: "50%",
-              display: "block",
-              margin: "10px auto",
-            }}
-          />
-        </div>
-
-        {/* Back of the card (XP, stats, skills) */}
-        <div
-          className="card-back"
-          style={{
-            display: open ? "block" : "none",  // Show the back when the card spins
-            padding: "10px",
-            color: "white",
-            backgroundColor: "#222",
-            textAlign: "center",
-          }}
-        >
-          <p>XP: 1200</p>
-          <p>Level: 6</p>
-          <p>Skills: Swift, C++, JS, React</p>
-        </div>
-      </motion.div>
+      />
     </motion.div>
   );
-}
+};
+
+export default Chest;
