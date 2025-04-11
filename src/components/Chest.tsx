@@ -80,9 +80,9 @@ const Chest = () => {
           }}
         >
           <div>
-            <p>XP: 1200</p>
-            <p>Level: 6</p>
-            <p>Skills: Swift, React, C++, and more...</p>
+            <p>XP: 9000+</p>
+            <p>Level: 69</p>
+            <p>Skills: Swift, React, C++, a lot more</p>
           </div>
         </div>
       </motion.div>
