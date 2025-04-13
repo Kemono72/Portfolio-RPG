@@ -46,8 +46,8 @@
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/Kemono72/Portfolio-RPG.git
-cd Portfolio-RPG
+git clone https://github.com/Kemono72/Portfolio.git
+cd Portfolio
 npm install
 npm run dev
 Then open [http://localhost:3000](http://localhost:3000)
