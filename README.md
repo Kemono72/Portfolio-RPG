@@ -1,4 +1,4 @@
-# ⚔️ Portfolio-RPG: 
+# ⚔️ Portfolio: 
 
 > A cyberpunk-themed developer portfolio turned into an interactive RPG-style experience.  
 > Built for FAANG recruiters, github watchers and those who vibe with code and creativity.
